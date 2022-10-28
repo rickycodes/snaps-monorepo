@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [0.22.4]
-### Updated
+### Changed
 - BREAKING: Replace Buffer with Typed Arrays ([#878](https://github.com/MetaMask/snaps-monorepo/pull/878))
 - Stop including source code in state ([#861](https://github.com/MetaMask/snaps-monorepo/pull/861))
 - Remove JSON schemas in favour of structs ([#862](https://github.com/MetaMask/snaps-monorepo/pull/862))

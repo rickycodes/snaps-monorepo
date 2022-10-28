@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [0.22.4]
-### Updated
+### Changed
 - `@metamask/controllers@32.0.2` ([#868](https://github.com/MetaMask/snaps-monorepo/pull/868))
 - 0.22.3 ([#856](https://github.com/MetaMask/snaps-monorepo/pull/856))
 - 0.22.2 ([#841](https://github.com/MetaMask/snaps-monorepo/pull/841))

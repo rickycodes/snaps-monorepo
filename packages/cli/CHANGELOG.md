@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [0.22.4]
-### Updated
+### Changed
 - Remove JSON schemas in favour of structs ([#862](https://github.com/MetaMask/snaps-monorepo/pull/862))
 - 0.22.3 ([#856](https://github.com/MetaMask/snaps-monorepo/pull/856))
 - 0.22.2 ([#841](https://github.com/MetaMask/snaps-monorepo/pull/841))
