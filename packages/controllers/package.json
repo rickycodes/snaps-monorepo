@@ -1,6 +1,6 @@
 {
   "name": "@metamask/snap-controllers",
-  "version": "0.22.3",
+  "version": "0.22.4",
   "description": "Controllers for MetaMask Snaps.",
   "repository": {
     "type": "git",
@@ -33,12 +33,12 @@
   "dependencies": {
     "@metamask/browser-passworder": "^3.0.0",
     "@metamask/controllers": "^32.0.2",
-    "@metamask/execution-environments": "^0.22.3",
+    "@metamask/execution-environments": "^0.22.4",
     "@metamask/object-multiplex": "^1.1.0",
     "@metamask/post-message-stream": "^6.0.0",
-    "@metamask/rpc-methods": "^0.22.3",
-    "@metamask/snap-types": "^0.22.3",
-    "@metamask/snap-utils": "^0.22.3",
+    "@metamask/rpc-methods": "^0.22.4",
+    "@metamask/snap-types": "^0.22.4",
+    "@metamask/snap-utils": "^0.22.4",
     "@metamask/utils": "^3.1.0",
     "@xstate/fsm": "^2.0.0",
     "concat-stream": "^2.0.0",
