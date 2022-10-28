@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [0.22.4]
-### Uncategorized
+### Updated
 - Stop including source code in state ([#861](https://github.com/MetaMask/snaps-monorepo/pull/861))
 - Remove JSON schemas in favour of structs ([#862](https://github.com/MetaMask/snaps-monorepo/pull/862))
 - `@metamask/controllers@32.0.2` ([#868](https://github.com/MetaMask/snaps-monorepo/pull/868))
