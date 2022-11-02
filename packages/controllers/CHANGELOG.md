@@ -7,126 +7,126 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [0.22.4]
-### Uncategorized
-- Stop including snap state in controller state ([#876](https://github.com/rickycodes/snaps-monorepo/pull/876))
-- Add missing cronjob exports ([#890](https://github.com/rickycodes/snaps-monorepo/pull/890))
-- Add snap cronjobs ([#651](https://github.com/rickycodes/snaps-monorepo/pull/651))
-- Make `SnapController.add()` private ([#883](https://github.com/rickycodes/snaps-monorepo/pull/883))
-- Improve keyring endowment error messaging ([#884](https://github.com/rickycodes/snaps-monorepo/pull/884))
-- Stop including source code in state ([#861](https://github.com/rickycodes/snaps-monorepo/pull/861))
-- Remove JSON schemas in favour of structs ([#862](https://github.com/rickycodes/snaps-monorepo/pull/862))
-- `@metamask/controllers@32.0.2` ([#868](https://github.com/rickycodes/snaps-monorepo/pull/868))
-- 0.22.3 ([#856](https://github.com/rickycodes/snaps-monorepo/pull/856))
-- 0.22.2 ([#841](https://github.com/rickycodes/snaps-monorepo/pull/841))
-- Rename repository ([#842](https://github.com/rickycodes/snaps-monorepo/pull/842))
-- 0.22.1 ([#824](https://github.com/rickycodes/snaps-monorepo/pull/824))
-- Add browser entry point for `snap-utils` ([#820](https://github.com/rickycodes/snaps-monorepo/pull/820))
-- 0.22.0 ([#810](https://github.com/rickycodes/snaps-monorepo/pull/810))
-- Bump `@metamask/utils` to `3.1.0` ([#781](https://github.com/rickycodes/snaps-monorepo/pull/781))
-- Merge test utils and simplify controller tests ([#782](https://github.com/rickycodes/snaps-monorepo/pull/782))
-- Bump Jest to the latest version in all packages ([#750](https://github.com/rickycodes/snaps-monorepo/pull/750))
-- 0.21.0 ([#776](https://github.com/rickycodes/snaps-monorepo/pull/776))
-- Bump `@metamask/controllers` to `31.0.0` ([#769](https://github.com/rickycodes/snaps-monorepo/pull/769))
-- 0.20.0 ([#711](https://github.com/rickycodes/snaps-monorepo/pull/711))
-- 0.19.1 ([#698](https://github.com/rickycodes/snaps-monorepo/pull/698))
-- 0.19.0 ([#687](https://github.com/rickycodes/snaps-monorepo/pull/687))
-- Moved SnapController to xstate ([#676](https://github.com/rickycodes/snaps-monorepo/pull/676))
-- Remove reliance on getRpcRequestHandler ([#645](https://github.com/rickycodes/snaps-monorepo/pull/645))
-- Dedupe yarn.lock ([#617](https://github.com/rickycodes/snaps-monorepo/pull/617))
-- Move JSON schemas and controller utils to utils package ([#623](https://github.com/rickycodes/snaps-monorepo/pull/623))
-- 0.18.1 ([#640](https://github.com/rickycodes/snaps-monorepo/pull/640))
-- Fix error serialization issues ([#637](https://github.com/rickycodes/snaps-monorepo/pull/637))
-- 0.18.0 ([#634](https://github.com/rickycodes/snaps-monorepo/pull/634))
-- 0.17.0 ([#625](https://github.com/rickycodes/snaps-monorepo/pull/625))
-- Bump `post-message-stream` ([#622](https://github.com/rickycodes/snaps-monorepo/pull/622))
-- Simplify ExecutionServices ([#604](https://github.com/rickycodes/snaps-monorepo/pull/604))
-- Refactor snap fetching logic and SnapController tests ([#595](https://github.com/rickycodes/snaps-monorepo/pull/595))
-- Increase execution environments coverage ([#482](https://github.com/rickycodes/snaps-monorepo/pull/482))
-- @metamask/eslint config@9.0.0 ([#559](https://github.com/rickycodes/snaps-monorepo/pull/559))
-- Rename package `publish` command to `publish:package` ([#547](https://github.com/rickycodes/snaps-monorepo/pull/547))
-- 0.16.0 ([#540](https://github.com/rickycodes/snaps-monorepo/pull/540))
-- @metamask/controllers@30.0.0 ([#535](https://github.com/rickycodes/snaps-monorepo/pull/535))
-- Fix various monorepo / workspace issues ([#496](https://github.com/rickycodes/snaps-monorepo/pull/496))
-- 0.15.0 ([#492](https://github.com/rickycodes/snaps-monorepo/pull/492))
-- Update @metamask/auto-changelog to 2.6.0 ([#470](https://github.com/rickycodes/snaps-monorepo/pull/470))
-- Use @metamask/utils ([#460](https://github.com/rickycodes/snaps-monorepo/pull/460))
-- Fix yarn clean / build:clean not working on yarn 3 ([#469](https://github.com/rickycodes/snaps-monorepo/pull/469))
-- Fix `jest-it-up` after Yarn 3 upgrade ([#467](https://github.com/rickycodes/snaps-monorepo/pull/467))
-- Upgrade Yarn to v3 ([#463](https://github.com/rickycodes/snaps-monorepo/pull/463))
-- 0.14.0 ([#454](https://github.com/rickycodes/snaps-monorepo/pull/454))
-- 0.13.0 ([#447](https://github.com/rickycodes/snaps-monorepo/pull/447))
-- BREAKING: Implement In-app notifications ([#419](https://github.com/rickycodes/snaps-monorepo/pull/419))
-- BREAKING: Run `IframeExecutionService` tests locally + `execution-environment` build changes ([#424](https://github.com/rickycodes/snaps-monorepo/pull/424))
-- 0.12.0 ([#425](https://github.com/rickycodes/snaps-monorepo/pull/425))
-- 0.11.1 ([#403](https://github.com/rickycodes/snaps-monorepo/pull/403))
-- 0.11.0 ([#401](https://github.com/rickycodes/snaps-monorepo/pull/401))
-- Fix changelogs ([#339](https://github.com/rickycodes/snaps-monorepo/pull/339))
-- 0.10.7 ([#337](https://github.com/rickycodes/snaps-monorepo/pull/337))
-- Add jest-it-up ([#329](https://github.com/rickycodes/snaps-monorepo/pull/329))
-- Snap controller tests refactor ([#328](https://github.com/rickycodes/snaps-monorepo/pull/328))
-- build(deps-dev): bump electron from 12.1.0 to 13.6.6 ([#324](https://github.com/rickycodes/snaps-monorepo/pull/324))
-- Move default endowments into own file ([#321](https://github.com/rickycodes/snaps-monorepo/pull/321))
-- Increase coverage ([#318](https://github.com/rickycodes/snaps-monorepo/pull/318))
-- 0.10.6 ([#312](https://github.com/rickycodes/snaps-monorepo/pull/312))
-- 0.10.5 ([#306](https://github.com/rickycodes/snaps-monorepo/pull/306))
-- 0.10.4 ([#296](https://github.com/rickycodes/snaps-monorepo/pull/296))
-- 0.10.3 ([#293](https://github.com/rickycodes/snaps-monorepo/pull/293))
-- Update controller coverage minimums ([#285](https://github.com/rickycodes/snaps-monorepo/pull/285))
-- 0.10.2 ([#283](https://github.com/rickycodes/snaps-monorepo/pull/283))
-- 0.10.1 ([#277](https://github.com/rickycodes/snaps-monorepo/pull/277))
-- 0.10.0 ([#246](https://github.com/rickycodes/snaps-monorepo/pull/246))
-- Delete @metamask/snap-workers package ([#256](https://github.com/rickycodes/snaps-monorepo/pull/256))
-- Fix snap controller utils export ([#239](https://github.com/rickycodes/snaps-monorepo/pull/239))
-- Snap Runtime Management refactor ([#229](https://github.com/rickycodes/snaps-monorepo/pull/229))
-- 0.9.0 ([#218](https://github.com/rickycodes/snaps-monorepo/pull/218))
-- build(deps): bump nanoid from 3.1.28 to 3.1.31 ([#201](https://github.com/rickycodes/snaps-monorepo/pull/201))
-- 0.8.1 ([#202](https://github.com/rickycodes/snaps-monorepo/pull/202))
-- 0.8.0 ([#198](https://github.com/rickycodes/snaps-monorepo/pull/198))
-- Remove example-snap package ([#195](https://github.com/rickycodes/snaps-monorepo/pull/195))
-- 0.7.0 ([#193](https://github.com/rickycodes/snaps-monorepo/pull/193))
-- 0.6.3 ([#177](https://github.com/rickycodes/snaps-monorepo/pull/177))
-- 0.6.2 ([#173](https://github.com/rickycodes/snaps-monorepo/pull/173))
-- 0.6.1 ([#170](https://github.com/rickycodes/snaps-monorepo/pull/170))
-- Fix build and publish scripts ([#169](https://github.com/rickycodes/snaps-monorepo/pull/169))
-- 0.6.0 ([#164](https://github.com/rickycodes/snaps-monorepo/pull/164))
-- Clean up SnapController tests ([#156](https://github.com/rickycodes/snaps-monorepo/pull/156))
-- 0.5.0 ([#146](https://github.com/rickycodes/snaps-monorepo/pull/146))
-- 0.4.0 ([#142](https://github.com/rickycodes/snaps-monorepo/pull/142))
-- 0.3.1 ([#127](https://github.com/rickycodes/snaps-monorepo/pull/127))
-- 0.3.0 ([#121](https://github.com/rickycodes/snaps-monorepo/pull/121))
-- build(deps-dev): bump electron from 12.0.7 to 12.1.0 ([#102](https://github.com/rickycodes/snaps-monorepo/pull/102))
-- 0.2.2 ([#99](https://github.com/rickycodes/snaps-monorepo/pull/99))
-- 0.2.0 ([#93](https://github.com/rickycodes/snaps-monorepo/pull/93))
+### Changed
+- Stop including snap state in controller state ([#876](https://github.com/MetaMask/snaps-monorepo/pull/876))
+- Add missing cronjob exports ([#890](https://github.com/MetaMask/snaps-monorepo/pull/890))
+- Add snap cronjobs ([#651](https://github.com/MetaMask/snaps-monorepo/pull/651))
+- Make `SnapController.add()` private ([#883](https://github.com/MetaMask/snaps-monorepo/pull/883))
+- Improve keyring endowment error messaging ([#884](https://github.com/MetaMask/snaps-monorepo/pull/884))
+- Stop including source code in state ([#861](https://github.com/MetaMask/snaps-monorepo/pull/861))
+- Remove JSON schemas in favour of structs ([#862](https://github.com/MetaMask/snaps-monorepo/pull/862))
+- `@metamask/controllers@32.0.2` ([#868](https://github.com/MetaMask/snaps-monorepo/pull/868))
+- 0.22.3 ([#856](https://github.com/MetaMask/snaps-monorepo/pull/856))
+- 0.22.2 ([#841](https://github.com/MetaMask/snaps-monorepo/pull/841))
+- Rename repository ([#842](https://github.com/MetaMask/snaps-monorepo/pull/842))
+- 0.22.1 ([#824](https://github.com/MetaMask/snaps-monorepo/pull/824))
+- Add browser entry point for `snap-utils` ([#820](https://github.com/MetaMask/snaps-monorepo/pull/820))
+- 0.22.0 ([#810](https://github.com/MetaMask/snaps-monorepo/pull/810))
+- Bump `@metamask/utils` to `3.1.0` ([#781](https://github.com/MetaMask/snaps-monorepo/pull/781))
+- Merge test utils and simplify controller tests ([#782](https://github.com/MetaMask/snaps-monorepo/pull/782))
+- Bump Jest to the latest version in all packages ([#750](https://github.com/MetaMask/snaps-monorepo/pull/750))
+- 0.21.0 ([#776](https://github.com/MetaMask/snaps-monorepo/pull/776))
+- Bump `@metamask/controllers` to `31.0.0` ([#769](https://github.com/MetaMask/snaps-monorepo/pull/769))
+- 0.20.0 ([#711](https://github.com/MetaMask/snaps-monorepo/pull/711))
+- 0.19.1 ([#698](https://github.com/MetaMask/snaps-monorepo/pull/698))
+- 0.19.0 ([#687](https://github.com/MetaMask/snaps-monorepo/pull/687))
+- Moved SnapController to xstate ([#676](https://github.com/MetaMask/snaps-monorepo/pull/676))
+- Remove reliance on getRpcRequestHandler ([#645](https://github.com/MetaMask/snaps-monorepo/pull/645))
+- Dedupe yarn.lock ([#617](https://github.com/MetaMask/snaps-monorepo/pull/617))
+- Move JSON schemas and controller utils to utils package ([#623](https://github.com/MetaMask/snaps-monorepo/pull/623))
+- 0.18.1 ([#640](https://github.com/MetaMask/snaps-monorepo/pull/640))
+- Fix error serialization issues ([#637](https://github.com/MetaMask/snaps-monorepo/pull/637))
+- 0.18.0 ([#634](https://github.com/MetaMask/snaps-monorepo/pull/634))
+- 0.17.0 ([#625](https://github.com/MetaMask/snaps-monorepo/pull/625))
+- Bump `post-message-stream` ([#622](https://github.com/MetaMask/snaps-monorepo/pull/622))
+- Simplify ExecutionServices ([#604](https://github.com/MetaMask/snaps-monorepo/pull/604))
+- Refactor snap fetching logic and SnapController tests ([#595](https://github.com/MetaMask/snaps-monorepo/pull/595))
+- Increase execution environments coverage ([#482](https://github.com/MetaMask/snaps-monorepo/pull/482))
+- @metamask/eslint config@9.0.0 ([#559](https://github.com/MetaMask/snaps-monorepo/pull/559))
+- Rename package `publish` command to `publish:package` ([#547](https://github.com/MetaMask/snaps-monorepo/pull/547))
+- 0.16.0 ([#540](https://github.com/MetaMask/snaps-monorepo/pull/540))
+- @metamask/controllers@30.0.0 ([#535](https://github.com/MetaMask/snaps-monorepo/pull/535))
+- Fix various monorepo / workspace issues ([#496](https://github.com/MetaMask/snaps-monorepo/pull/496))
+- 0.15.0 ([#492](https://github.com/MetaMask/snaps-monorepo/pull/492))
+- Update @metamask/auto-changelog to 2.6.0 ([#470](https://github.com/MetaMask/snaps-monorepo/pull/470))
+- Use @metamask/utils ([#460](https://github.com/MetaMask/snaps-monorepo/pull/460))
+- Fix yarn clean / build:clean not working on yarn 3 ([#469](https://github.com/MetaMask/snaps-monorepo/pull/469))
+- Fix `jest-it-up` after Yarn 3 upgrade ([#467](https://github.com/MetaMask/snaps-monorepo/pull/467))
+- Upgrade Yarn to v3 ([#463](https://github.com/MetaMask/snaps-monorepo/pull/463))
+- 0.14.0 ([#454](https://github.com/MetaMask/snaps-monorepo/pull/454))
+- 0.13.0 ([#447](https://github.com/MetaMask/snaps-monorepo/pull/447))
+- BREAKING: Implement In-app notifications ([#419](https://github.com/MetaMask/snaps-monorepo/pull/419))
+- BREAKING: Run `IframeExecutionService` tests locally + `execution-environment` build changes ([#424](https://github.com/MetaMask/snaps-monorepo/pull/424))
+- 0.12.0 ([#425](https://github.com/MetaMask/snaps-monorepo/pull/425))
+- 0.11.1 ([#403](https://github.com/MetaMask/snaps-monorepo/pull/403))
+- 0.11.0 ([#401](https://github.com/MetaMask/snaps-monorepo/pull/401))
+- Fix changelogs ([#339](https://github.com/MetaMask/snaps-monorepo/pull/339))
+- 0.10.7 ([#337](https://github.com/MetaMask/snaps-monorepo/pull/337))
+- Add jest-it-up ([#329](https://github.com/MetaMask/snaps-monorepo/pull/329))
+- Snap controller tests refactor ([#328](https://github.com/MetaMask/snaps-monorepo/pull/328))
+- build(deps-dev): bump electron from 12.1.0 to 13.6.6 ([#324](https://github.com/MetaMask/snaps-monorepo/pull/324))
+- Move default endowments into own file ([#321](https://github.com/MetaMask/snaps-monorepo/pull/321))
+- Increase coverage ([#318](https://github.com/MetaMask/snaps-monorepo/pull/318))
+- 0.10.6 ([#312](https://github.com/MetaMask/snaps-monorepo/pull/312))
+- 0.10.5 ([#306](https://github.com/MetaMask/snaps-monorepo/pull/306))
+- 0.10.4 ([#296](https://github.com/MetaMask/snaps-monorepo/pull/296))
+- 0.10.3 ([#293](https://github.com/MetaMask/snaps-monorepo/pull/293))
+- Update controller coverage minimums ([#285](https://github.com/MetaMask/snaps-monorepo/pull/285))
+- 0.10.2 ([#283](https://github.com/MetaMask/snaps-monorepo/pull/283))
+- 0.10.1 ([#277](https://github.com/MetaMask/snaps-monorepo/pull/277))
+- 0.10.0 ([#246](https://github.com/MetaMask/snaps-monorepo/pull/246))
+- Delete @metamask/snap-workers package ([#256](https://github.com/MetaMask/snaps-monorepo/pull/256))
+- Fix snap controller utils export ([#239](https://github.com/MetaMask/snaps-monorepo/pull/239))
+- Snap Runtime Management refactor ([#229](https://github.com/MetaMask/snaps-monorepo/pull/229))
+- 0.9.0 ([#218](https://github.com/MetaMask/snaps-monorepo/pull/218))
+- build(deps): bump nanoid from 3.1.28 to 3.1.31 ([#201](https://github.com/MetaMask/snaps-monorepo/pull/201))
+- 0.8.1 ([#202](https://github.com/MetaMask/snaps-monorepo/pull/202))
+- 0.8.0 ([#198](https://github.com/MetaMask/snaps-monorepo/pull/198))
+- Remove example-snap package ([#195](https://github.com/MetaMask/snaps-monorepo/pull/195))
+- 0.7.0 ([#193](https://github.com/MetaMask/snaps-monorepo/pull/193))
+- 0.6.3 ([#177](https://github.com/MetaMask/snaps-monorepo/pull/177))
+- 0.6.2 ([#173](https://github.com/MetaMask/snaps-monorepo/pull/173))
+- 0.6.1 ([#170](https://github.com/MetaMask/snaps-monorepo/pull/170))
+- Fix build and publish scripts ([#169](https://github.com/MetaMask/snaps-monorepo/pull/169))
+- 0.6.0 ([#164](https://github.com/MetaMask/snaps-monorepo/pull/164))
+- Clean up SnapController tests ([#156](https://github.com/MetaMask/snaps-monorepo/pull/156))
+- 0.5.0 ([#146](https://github.com/MetaMask/snaps-monorepo/pull/146))
+- 0.4.0 ([#142](https://github.com/MetaMask/snaps-monorepo/pull/142))
+- 0.3.1 ([#127](https://github.com/MetaMask/snaps-monorepo/pull/127))
+- 0.3.0 ([#121](https://github.com/MetaMask/snaps-monorepo/pull/121))
+- build(deps-dev): bump electron from 12.0.7 to 12.1.0 ([#102](https://github.com/MetaMask/snaps-monorepo/pull/102))
+- 0.2.2 ([#99](https://github.com/MetaMask/snaps-monorepo/pull/99))
+- 0.2.0 ([#93](https://github.com/MetaMask/snaps-monorepo/pull/93))
 - Update package 'publish' scripts
-- 0.1.2 ([#91](https://github.com/rickycodes/snaps-monorepo/pull/91))
-- 0.1.1 ([#89](https://github.com/rickycodes/snaps-monorepo/pull/89))
-- 0.1.0 ([#82](https://github.com/rickycodes/snaps-monorepo/pull/82))
-- Add snaps-cli and snap-examples packages ([#72](https://github.com/rickycodes/snaps-monorepo/pull/72))
-- build(deps): bump immer from 8.0.4 to 9.0.6 ([#69](https://github.com/rickycodes/snaps-monorepo/pull/69))
-- 0.0.9 ([#67](https://github.com/rickycodes/snaps-monorepo/pull/67))
-- 0.0.7 ([#49](https://github.com/rickycodes/snaps-monorepo/pull/49))
-- @metamask/eslint-config*@8.0.0 ([#50](https://github.com/rickycodes/snaps-monorepo/pull/50))
-- Fix publishConfig of all packages ([#46](https://github.com/rickycodes/snaps-monorepo/pull/46))
-- Add publish scripts to all packages ([#44](https://github.com/rickycodes/snaps-monorepo/pull/44))
-- 0.0.6 ([#42](https://github.com/rickycodes/snaps-monorepo/pull/42))
-- @metamask/controllers@14.2.0 ([#43](https://github.com/rickycodes/snaps-monorepo/pull/43))
-- Add changelog linting to CI, fix changelog issues ([#41](https://github.com/rickycodes/snaps-monorepo/pull/41))
-- Update TypeScript and ESLint dependencies ([#29](https://github.com/rickycodes/snaps-monorepo/pull/29))
-- Standardize repository, remove lerna ([#16](https://github.com/rickycodes/snaps-monorepo/pull/16))
-- Replace `prepare` scripts with `prepublishOnly` ([#15](https://github.com/rickycodes/snaps-monorepo/pull/15))
-- @metamask/eslint-config*@6.0.0 ([#8](https://github.com/rickycodes/snaps-monorepo/pull/8))
-- 0.0.5 ([#7](https://github.com/rickycodes/snaps-monorepo/pull/7))
+- 0.1.2 ([#91](https://github.com/MetaMask/snaps-monorepo/pull/91))
+- 0.1.1 ([#89](https://github.com/MetaMask/snaps-monorepo/pull/89))
+- 0.1.0 ([#82](https://github.com/MetaMask/snaps-monorepo/pull/82))
+- Add snaps-cli and snap-examples packages ([#72](https://github.com/MetaMask/snaps-monorepo/pull/72))
+- build(deps): bump immer from 8.0.4 to 9.0.6 ([#69](https://github.com/MetaMask/snaps-monorepo/pull/69))
+- 0.0.9 ([#67](https://github.com/MetaMask/snaps-monorepo/pull/67))
+- 0.0.7 ([#49](https://github.com/MetaMask/snaps-monorepo/pull/49))
+- @metamask/eslint-config*@8.0.0 ([#50](https://github.com/MetaMask/snaps-monorepo/pull/50))
+- Fix publishConfig of all packages ([#46](https://github.com/MetaMask/snaps-monorepo/pull/46))
+- Add publish scripts to all packages ([#44](https://github.com/MetaMask/snaps-monorepo/pull/44))
+- 0.0.6 ([#42](https://github.com/MetaMask/snaps-monorepo/pull/42))
+- @metamask/controllers@14.2.0 ([#43](https://github.com/MetaMask/snaps-monorepo/pull/43))
+- Add changelog linting to CI, fix changelog issues ([#41](https://github.com/MetaMask/snaps-monorepo/pull/41))
+- Update TypeScript and ESLint dependencies ([#29](https://github.com/MetaMask/snaps-monorepo/pull/29))
+- Standardize repository, remove lerna ([#16](https://github.com/MetaMask/snaps-monorepo/pull/16))
+- Replace `prepare` scripts with `prepublishOnly` ([#15](https://github.com/MetaMask/snaps-monorepo/pull/15))
+- @metamask/eslint-config*@6.0.0 ([#8](https://github.com/MetaMask/snaps-monorepo/pull/8))
+- 0.0.5 ([#7](https://github.com/MetaMask/snaps-monorepo/pull/7))
 - controllers: Fix PluginController._filterMemStoreState
 - monorepo: Update publishConfig to public
 - controllers: Remove extraneous console.log
-- 0.0.4 ([#6](https://github.com/rickycodes/snaps-monorepo/pull/6))
+- 0.0.4 ([#6](https://github.com/MetaMask/snaps-monorepo/pull/6))
 - controllers: Update PluginController
-- 0.0.3 ([#5](https://github.com/rickycodes/snaps-monorepo/pull/5))
+- 0.0.3 ([#5](https://github.com/MetaMask/snaps-monorepo/pull/5))
 - controllers: Add ExternalResourceController 'getAll' method
 - controllers: Update ExternalResourceController.handleRpcRequest
 - controllers: Fix ExternalResourceController export, minor updates
 - controllers: Add ExternalResourceController
-- 0.0.2 ([#4](https://github.com/rickycodes/snaps-monorepo/pull/4))
+- 0.0.2 ([#4](https://github.com/MetaMask/snaps-monorepo/pull/4))
 - controllers: Fix inlineWorkerIsRunning flag
 - monorepo: Add licenses, update npm registry
 - monorepo: Fix packages publishConfig
@@ -137,7 +137,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - workers, controllers: various fixes / cleanup
 - controllers: Fix PluginController export
 - monorepo: Add @mm-snap/rpc-methods package
-- Add PluginController, @mm-snap/types, @mm-snap/workers TypeScript conversion ([#3](https://github.com/rickycodes/snaps-monorepo/pull/3))
+- Add PluginController, @mm-snap/types, @mm-snap/workers TypeScript conversion ([#3](https://github.com/MetaMask/snaps-monorepo/pull/3))
 - Use Node 14
 - Rename packages
 
@@ -507,51 +507,51 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - First semi-stable release.
 
-[Unreleased]: https://github.com/rickycodes/snaps-monorepo/compare/v0.22.4...HEAD
-[0.22.4]: https://github.com/rickycodes/snaps-monorepo/compare/v0.22.3...v0.22.4
-[0.22.3]: https://github.com/rickycodes/snaps-monorepo/compare/v0.22.2...v0.22.3
-[0.22.2]: https://github.com/rickycodes/snaps-monorepo/compare/v0.22.1...v0.22.2
-[0.22.1]: https://github.com/rickycodes/snaps-monorepo/compare/v0.22.0...v0.22.1
-[0.22.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.21.0...v0.22.0
-[0.21.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.20.0...v0.21.0
-[0.20.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.19.1...v0.20.0
-[0.19.1]: https://github.com/rickycodes/snaps-monorepo/compare/v0.19.0...v0.19.1
-[0.19.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.18.1...v0.19.0
-[0.18.1]: https://github.com/rickycodes/snaps-monorepo/compare/v0.18.0...v0.18.1
-[0.18.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.17.0...v0.18.0
-[0.17.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.16.0...v0.17.0
-[0.16.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.15.0...v0.16.0
-[0.15.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.14.0...v0.15.0
-[0.14.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.13.0...v0.14.0
-[0.13.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.12.0...v0.13.0
-[0.12.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.11.1...v0.12.0
-[0.11.1]: https://github.com/rickycodes/snaps-monorepo/compare/v0.11.0...v0.11.1
-[0.11.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.10.7...v0.11.0
-[0.10.7]: https://github.com/rickycodes/snaps-monorepo/compare/v0.10.6...v0.10.7
-[0.10.6]: https://github.com/rickycodes/snaps-monorepo/compare/v0.10.5...v0.10.6
-[0.10.5]: https://github.com/rickycodes/snaps-monorepo/compare/v0.10.3...v0.10.5
-[0.10.3]: https://github.com/rickycodes/snaps-monorepo/compare/v0.10.2...v0.10.3
-[0.10.2]: https://github.com/rickycodes/snaps-monorepo/compare/v0.10.1...v0.10.2
-[0.10.1]: https://github.com/rickycodes/snaps-monorepo/compare/v0.10.0...v0.10.1
-[0.10.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.9.0...v0.10.0
-[0.9.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.8.1...v0.9.0
-[0.8.1]: https://github.com/rickycodes/snaps-monorepo/compare/v0.8.0...v0.8.1
-[0.8.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.7.0...v0.8.0
-[0.7.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.6.3...v0.7.0
-[0.6.3]: https://github.com/rickycodes/snaps-monorepo/compare/v0.6.2...v0.6.3
-[0.6.2]: https://github.com/rickycodes/snaps-monorepo/compare/v0.6.1...v0.6.2
-[0.6.1]: https://github.com/rickycodes/snaps-monorepo/compare/v0.6.0...v0.6.1
-[0.6.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.5.0...v0.6.0
-[0.5.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.4.0...v0.5.0
-[0.4.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.3.1...v0.4.0
-[0.3.1]: https://github.com/rickycodes/snaps-monorepo/compare/v0.3.0...v0.3.1
-[0.3.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.2.2...v0.3.0
-[0.2.2]: https://github.com/rickycodes/snaps-monorepo/compare/v0.2.0...v0.2.2
-[0.2.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.1.2...v0.2.0
-[0.1.2]: https://github.com/rickycodes/snaps-monorepo/compare/v0.1.1...v0.1.2
-[0.1.1]: https://github.com/rickycodes/snaps-monorepo/compare/v0.1.0...v0.1.1
-[0.1.0]: https://github.com/rickycodes/snaps-monorepo/compare/v0.0.9...v0.1.0
-[0.0.9]: https://github.com/rickycodes/snaps-monorepo/compare/v0.0.7...v0.0.9
-[0.0.7]: https://github.com/rickycodes/snaps-monorepo/compare/v0.0.6...v0.0.7
-[0.0.6]: https://github.com/rickycodes/snaps-monorepo/compare/v0.0.5...v0.0.6
-[0.0.5]: https://github.com/rickycodes/snaps-monorepo/releases/tag/v0.0.5
+[Unreleased]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.4...HEAD
+[0.22.4]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.3...v0.22.4
+[0.22.3]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.2...v0.22.3
+[0.22.2]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.1...v0.22.2
+[0.22.1]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.0...v0.22.1
+[0.22.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.21.0...v0.22.0
+[0.21.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.20.0...v0.21.0
+[0.20.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.19.1...v0.20.0
+[0.19.1]: https://github.com/MetaMask/snaps-monorepo/compare/v0.19.0...v0.19.1
+[0.19.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.18.1...v0.19.0
+[0.18.1]: https://github.com/MetaMask/snaps-monorepo/compare/v0.18.0...v0.18.1
+[0.18.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.17.0...v0.18.0
+[0.17.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.16.0...v0.17.0
+[0.16.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.15.0...v0.16.0
+[0.15.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.14.0...v0.15.0
+[0.14.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.13.0...v0.14.0
+[0.13.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.12.0...v0.13.0
+[0.12.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.11.1...v0.12.0
+[0.11.1]: https://github.com/MetaMask/snaps-monorepo/compare/v0.11.0...v0.11.1
+[0.11.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.10.7...v0.11.0
+[0.10.7]: https://github.com/MetaMask/snaps-monorepo/compare/v0.10.6...v0.10.7
+[0.10.6]: https://github.com/MetaMask/snaps-monorepo/compare/v0.10.5...v0.10.6
+[0.10.5]: https://github.com/MetaMask/snaps-monorepo/compare/v0.10.3...v0.10.5
+[0.10.3]: https://github.com/MetaMask/snaps-monorepo/compare/v0.10.2...v0.10.3
+[0.10.2]: https://github.com/MetaMask/snaps-monorepo/compare/v0.10.1...v0.10.2
+[0.10.1]: https://github.com/MetaMask/snaps-monorepo/compare/v0.10.0...v0.10.1
+[0.10.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.9.0...v0.10.0
+[0.9.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.8.1...v0.9.0
+[0.8.1]: https://github.com/MetaMask/snaps-monorepo/compare/v0.8.0...v0.8.1
+[0.8.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.7.0...v0.8.0
+[0.7.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.6.3...v0.7.0
+[0.6.3]: https://github.com/MetaMask/snaps-monorepo/compare/v0.6.2...v0.6.3
+[0.6.2]: https://github.com/MetaMask/snaps-monorepo/compare/v0.6.1...v0.6.2
+[0.6.1]: https://github.com/MetaMask/snaps-monorepo/compare/v0.6.0...v0.6.1
+[0.6.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.5.0...v0.6.0
+[0.5.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.4.0...v0.5.0
+[0.4.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.3.1...v0.4.0
+[0.3.1]: https://github.com/MetaMask/snaps-monorepo/compare/v0.3.0...v0.3.1
+[0.3.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.2.2...v0.3.0
+[0.2.2]: https://github.com/MetaMask/snaps-monorepo/compare/v0.2.0...v0.2.2
+[0.2.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.1.2...v0.2.0
+[0.1.2]: https://github.com/MetaMask/snaps-monorepo/compare/v0.1.1...v0.1.2
+[0.1.1]: https://github.com/MetaMask/snaps-monorepo/compare/v0.1.0...v0.1.1
+[0.1.0]: https://github.com/MetaMask/snaps-monorepo/compare/v0.0.9...v0.1.0
+[0.0.9]: https://github.com/MetaMask/snaps-monorepo/compare/v0.0.7...v0.0.9
+[0.0.7]: https://github.com/MetaMask/snaps-monorepo/compare/v0.0.6...v0.0.7
+[0.0.6]: https://github.com/MetaMask/snaps-monorepo/compare/v0.0.5...v0.0.6
+[0.0.5]: https://github.com/MetaMask/snaps-monorepo/releases/tag/v0.0.5
