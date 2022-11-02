@@ -6,6 +6,104 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.22.4]
+### Changed
+- `@metamask/controllers@32.0.2` ([#868](https://github.com/MetaMask/snaps-monorepo/pull/868))
+- 0.22.3 ([#856](https://github.com/MetaMask/snaps-monorepo/pull/856))
+- 0.22.2 ([#841](https://github.com/MetaMask/snaps-monorepo/pull/841))
+- Rename repository ([#842](https://github.com/MetaMask/snaps-monorepo/pull/842))
+- 0.22.1 ([#824](https://github.com/MetaMask/snaps-monorepo/pull/824))
+- 0.22.0 ([#810](https://github.com/MetaMask/snaps-monorepo/pull/810))
+- Bump `@metamask/utils` to `3.1.0` ([#781](https://github.com/MetaMask/snaps-monorepo/pull/781))
+- Add `MultiChainProvider` and `MultiChainController` ([#700](https://github.com/MetaMask/snaps-monorepo/pull/700))
+- Add keyring endowment permission ([#777](https://github.com/MetaMask/snaps-monorepo/pull/777))
+- Bump Jest to the latest version in all packages ([#750](https://github.com/MetaMask/snaps-monorepo/pull/750))
+- 0.21.0 ([#776](https://github.com/MetaMask/snaps-monorepo/pull/776))
+- Bump `@metamask/controllers` to `31.0.0` ([#769](https://github.com/MetaMask/snaps-monorepo/pull/769))
+- 0.20.0 ([#711](https://github.com/MetaMask/snaps-monorepo/pull/711))
+- 0.19.1 ([#698](https://github.com/MetaMask/snaps-monorepo/pull/698))
+- 0.19.0 ([#687](https://github.com/MetaMask/snaps-monorepo/pull/687))
+- Move JSON schemas and controller utils to utils package ([#623](https://github.com/MetaMask/snaps-monorepo/pull/623))
+- 0.18.1 ([#640](https://github.com/MetaMask/snaps-monorepo/pull/640))
+- 0.18.0 ([#634](https://github.com/MetaMask/snaps-monorepo/pull/634))
+- 0.17.0 ([#625](https://github.com/MetaMask/snaps-monorepo/pull/625))
+- @metamask/eslint config@9.0.0 ([#559](https://github.com/MetaMask/snaps-monorepo/pull/559))
+- Rename package `publish` command to `publish:package` ([#547](https://github.com/MetaMask/snaps-monorepo/pull/547))
+- 0.16.0 ([#540](https://github.com/MetaMask/snaps-monorepo/pull/540))
+- @metamask/controllers@30.0.0 ([#535](https://github.com/MetaMask/snaps-monorepo/pull/535))
+- Fix various monorepo / workspace issues ([#496](https://github.com/MetaMask/snaps-monorepo/pull/496))
+- 0.15.0 ([#492](https://github.com/MetaMask/snaps-monorepo/pull/492))
+- Update @metamask/auto-changelog to 2.6.0 ([#470](https://github.com/MetaMask/snaps-monorepo/pull/470))
+- Use @metamask/utils ([#460](https://github.com/MetaMask/snaps-monorepo/pull/460))
+- Fix yarn clean / build:clean not working on yarn 3 ([#469](https://github.com/MetaMask/snaps-monorepo/pull/469))
+- Upgrade Yarn to v3 ([#463](https://github.com/MetaMask/snaps-monorepo/pull/463))
+- 0.14.0 ([#454](https://github.com/MetaMask/snaps-monorepo/pull/454))
+- 0.13.0 ([#447](https://github.com/MetaMask/snaps-monorepo/pull/447))
+- 0.12.0 ([#425](https://github.com/MetaMask/snaps-monorepo/pull/425))
+- 0.11.1 ([#403](https://github.com/MetaMask/snaps-monorepo/pull/403))
+- 0.11.0 ([#401](https://github.com/MetaMask/snaps-monorepo/pull/401))
+- Fix changelogs ([#339](https://github.com/MetaMask/snaps-monorepo/pull/339))
+- 0.10.7 ([#337](https://github.com/MetaMask/snaps-monorepo/pull/337))
+- 0.10.6 ([#312](https://github.com/MetaMask/snaps-monorepo/pull/312))
+- 0.10.5 ([#306](https://github.com/MetaMask/snaps-monorepo/pull/306))
+- 0.10.3 ([#293](https://github.com/MetaMask/snaps-monorepo/pull/293))
+- 0.10.2 ([#283](https://github.com/MetaMask/snaps-monorepo/pull/283))
+- 0.10.1 ([#277](https://github.com/MetaMask/snaps-monorepo/pull/277))
+- 0.10.0 ([#246](https://github.com/MetaMask/snaps-monorepo/pull/246))
+- Delete PermissionController and SubjectMetadataController ([#261](https://github.com/MetaMask/snaps-monorepo/pull/261))
+- Fix snap controller utils export ([#239](https://github.com/MetaMask/snaps-monorepo/pull/239))
+- 0.9.0 ([#218](https://github.com/MetaMask/snaps-monorepo/pull/218))
+- 0.8.0 ([#198](https://github.com/MetaMask/snaps-monorepo/pull/198))
+- 0.7.0 ([#193](https://github.com/MetaMask/snaps-monorepo/pull/193))
+- 0.6.3 ([#177](https://github.com/MetaMask/snaps-monorepo/pull/177))
+- 0.6.2 ([#173](https://github.com/MetaMask/snaps-monorepo/pull/173))
+- 0.6.1 ([#170](https://github.com/MetaMask/snaps-monorepo/pull/170))
+- Fix build and publish scripts ([#169](https://github.com/MetaMask/snaps-monorepo/pull/169))
+- 0.6.0 ([#164](https://github.com/MetaMask/snaps-monorepo/pull/164))
+- 0.5.0 ([#146](https://github.com/MetaMask/snaps-monorepo/pull/146))
+- 0.4.0 ([#142](https://github.com/MetaMask/snaps-monorepo/pull/142))
+- 0.3.1 ([#127](https://github.com/MetaMask/snaps-monorepo/pull/127))
+- rpc-methods: Fix tsconfig.local.json ([#122](https://github.com/MetaMask/snaps-monorepo/pull/122))
+- 0.3.0 ([#121](https://github.com/MetaMask/snaps-monorepo/pull/121))
+- Added Service Messenger ([#100](https://github.com/MetaMask/snaps-monorepo/pull/100))
+- 0.2.2 ([#99](https://github.com/MetaMask/snaps-monorepo/pull/99))
+- 0.2.0 ([#93](https://github.com/MetaMask/snaps-monorepo/pull/93))
+- Update package 'publish' scripts
+- 0.1.0 ([#82](https://github.com/MetaMask/snaps-monorepo/pull/82))
+- Add snaps-cli and snap-examples packages ([#72](https://github.com/MetaMask/snaps-monorepo/pull/72))
+- Fix publishConfig of all packages ([#46](https://github.com/MetaMask/snaps-monorepo/pull/46))
+- Add publish scripts to all packages ([#44](https://github.com/MetaMask/snaps-monorepo/pull/44))
+- 0.0.6 ([#42](https://github.com/MetaMask/snaps-monorepo/pull/42))
+- Add changelog linting to CI, fix changelog issues ([#41](https://github.com/MetaMask/snaps-monorepo/pull/41))
+- Update TypeScript and ESLint dependencies ([#29](https://github.com/MetaMask/snaps-monorepo/pull/29))
+- Standardize repository, remove lerna ([#16](https://github.com/MetaMask/snaps-monorepo/pull/16))
+- Replace `prepare` scripts with `prepublishOnly` ([#15](https://github.com/MetaMask/snaps-monorepo/pull/15))
+- @metamask/eslint-config*@6.0.0 ([#8](https://github.com/MetaMask/snaps-monorepo/pull/8))
+- 0.0.5 ([#7](https://github.com/MetaMask/snaps-monorepo/pull/7))
+- monorepo: Update publishConfig to public
+- rpc-methods: Fix controllers type import
+- 0.0.4 ([#6](https://github.com/MetaMask/snaps-monorepo/pull/6))
+- rpc-methods: Update invokePlugin per updated PluginController.add interface
+- 0.0.3 ([#5](https://github.com/MetaMask/snaps-monorepo/pull/5))
+- rpc-methods: Update manageAssets to support 'getAll' asset method
+- rpc-methods: Use virtual rpc engine to access requestor domain in some methods; various tweaks
+- rpc-methods: Add snap_manageAssets restricted method
+- rpc-methods: Convert state methods to restricted
+- rpc-methods: Refactor internal permitted method exports
+- rpc-methods: Add getBip44Entropy, refactor internal restricted method exports
+- rpc-methods: Add selectHooks utility function
+- rpc-methods: Add hookNames property to handlers
+- 0.0.2 ([#4](https://github.com/MetaMask/snaps-monorepo/pull/4))
+- rpc-methods: Update types, export names
+- monorepo: Add licenses, update npm registry
+- monorepo: Fix packages publishConfig
+- monorepo: Run lint without --fix in prepare scripts
+- controllers, rpc-methods: Add various RPC methods and hooks
+- rpc-methods: Add invokePlugin permission and methods
+- rpc-methods: Allow multiple method names for restricted methods
+- rpc-methods: Add restricted confirm method, update exports
+- monorepo: Add @mm-snap/rpc-methods package
+
 ## [0.22.3]
 ### Changed
 - No changes this release.
@@ -221,7 +319,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - First semi-stable release.
 
-[Unreleased]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.3...HEAD
+[Unreleased]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.4...HEAD
+[0.22.4]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.3...v0.22.4
 [0.22.3]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.2...v0.22.3
 [0.22.2]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.1...v0.22.2
 [0.22.1]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.0...v0.22.1

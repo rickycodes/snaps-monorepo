@@ -6,6 +6,47 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.22.4]
+### Changed
+- Add snap cronjobs ([#651](https://github.com/MetaMask/snaps-monorepo/pull/651))
+- Improve keyring endowment error messaging ([#884](https://github.com/MetaMask/snaps-monorepo/pull/884))
+- BREAKING: Replace Buffer with Typed Arrays ([#878](https://github.com/MetaMask/snaps-monorepo/pull/878))
+- Stop including source code in state ([#861](https://github.com/MetaMask/snaps-monorepo/pull/861))
+- Remove JSON schemas in favour of structs ([#862](https://github.com/MetaMask/snaps-monorepo/pull/862))
+- 0.22.3 ([#856](https://github.com/MetaMask/snaps-monorepo/pull/856))
+- 0.22.2 ([#841](https://github.com/MetaMask/snaps-monorepo/pull/841))
+- Rename repository ([#842](https://github.com/MetaMask/snaps-monorepo/pull/842))
+- 0.22.1 ([#824](https://github.com/MetaMask/snaps-monorepo/pull/824))
+- 0.22.0 ([#810](https://github.com/MetaMask/snaps-monorepo/pull/810))
+- Bump `@metamask/utils` to `3.1.0` ([#781](https://github.com/MetaMask/snaps-monorepo/pull/781))
+- Add Snap Keyring support to execution environment ([#728](https://github.com/MetaMask/snaps-monorepo/pull/728))
+- Merge test utils and simplify controller tests ([#782](https://github.com/MetaMask/snaps-monorepo/pull/782))
+- Bump Jest to the latest version in all packages ([#750](https://github.com/MetaMask/snaps-monorepo/pull/750))
+- 0.21.0 ([#776](https://github.com/MetaMask/snaps-monorepo/pull/776))
+- Stop including `installing` snaps in `wallet_getSnaps` ([#765](https://github.com/MetaMask/snaps-monorepo/pull/765))
+- Export test utils from utils package ([#743](https://github.com/MetaMask/snaps-monorepo/pull/743))
+- 0.20.0 ([#711](https://github.com/MetaMask/snaps-monorepo/pull/711))
+- 0.19.1 ([#698](https://github.com/MetaMask/snaps-monorepo/pull/698))
+- 0.19.0 ([#687](https://github.com/MetaMask/snaps-monorepo/pull/687))
+- Moved SnapController to xstate ([#676](https://github.com/MetaMask/snaps-monorepo/pull/676))
+- Dedupe yarn.lock ([#617](https://github.com/MetaMask/snaps-monorepo/pull/617))
+- BREAKING: Replace RegEx-based bundle processing and comment stripping with an AST-based solution ([#583](https://github.com/MetaMask/snaps-monorepo/pull/583))
+- 0.18.1 ([#640](https://github.com/MetaMask/snaps-monorepo/pull/640))
+- 0.18.0 ([#634](https://github.com/MetaMask/snaps-monorepo/pull/634))
+- 0.17.0 ([#625](https://github.com/MetaMask/snaps-monorepo/pull/625))
+- @metamask/eslint config@9.0.0 ([#559](https://github.com/MetaMask/snaps-monorepo/pull/559))
+- Rename package `publish` command to `publish:package` ([#547](https://github.com/MetaMask/snaps-monorepo/pull/547))
+- 0.16.0 ([#540](https://github.com/MetaMask/snaps-monorepo/pull/540))
+- Fix various monorepo / workspace issues ([#496](https://github.com/MetaMask/snaps-monorepo/pull/496))
+- 0.15.0 ([#492](https://github.com/MetaMask/snaps-monorepo/pull/492))
+- Update @metamask/auto-changelog to 2.6.0 ([#470](https://github.com/MetaMask/snaps-monorepo/pull/470))
+- Fix yarn clean / build:clean not working on yarn 3 ([#469](https://github.com/MetaMask/snaps-monorepo/pull/469))
+- Fix `jest-it-up` after Yarn 3 upgrade ([#467](https://github.com/MetaMask/snaps-monorepo/pull/467))
+- Upgrade Yarn to v3 ([#463](https://github.com/MetaMask/snaps-monorepo/pull/463))
+- 0.14.0 ([#454](https://github.com/MetaMask/snaps-monorepo/pull/454))
+- 0.13.0 ([#447](https://github.com/MetaMask/snaps-monorepo/pull/447))
+- 0.12.0 ([#425](https://github.com/MetaMask/snaps-monorepo/pull/425))
+
 ## [0.22.3]
 ### Fixed
 - Make @babel/types a regular dependency ([#852](https://github.com/MetaMask/snaps-monorepo/pull/852))
@@ -81,7 +122,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release ([#410](https://github.com/MetaMask/snaps-monorepo/pull/410), [#421](https://github.com/MetaMask/snaps-monorepo/pull/421))
 
-[Unreleased]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.3...HEAD
+[Unreleased]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.4...HEAD
+[0.22.4]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.3...v0.22.4
 [0.22.3]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.2...v0.22.3
 [0.22.2]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.1...v0.22.2
 [0.22.1]: https://github.com/MetaMask/snaps-monorepo/compare/v0.22.0...v0.22.1
